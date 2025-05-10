@@ -12,11 +12,13 @@ namespace CompanyApp
         SecurityOfficer 
     }
 
+    #region Q1
     enum Gender
     {
         M,
         F
-    }
+    } 
+    #endregion
 
     #region Q2 
     class HiringDate : IComparable<HiringDate>
